@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiScrollViewBug.MainPage">
+    <Border>
+        <ScrollView>
+            <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+                <Image
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+                <Label
+                Text="Hello, World!"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+                <Label
+                Text="Welcome to .NET Multi-platform App UI"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+                <Button
+                x:Name="CounterBtn"
+                Text="Click me"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
+
+                <Label Text="Hello 0"/>
+                <Label Text="Hello 1"/>
+                <Label Text="Hello 2"/>
+                <Label Text="Hello 3"/>
+                <Label Text="Hello 4"/>
+                <Label Text="Hello 5"/>
+                <Label Text="Hello 6"/>
+                <Label Text="Hello 7"/>
+                <Label Text="Hello 8"/>
+                <Label Text="Hello 9"/>
+                <Label Text="Hello 10"/>
+                <Label Text="Hello 11"/>
+                <Label Text="Hello 12"/>
+                <Label Text="Hello 13"/>
+                <Label Text="Hello 14"/>
+                <Label Text="Hello 15"/>
+                <Label Text="Hello 16"/>
+                <Label Text="Hello 17"/>
+                <Label Text="Hello 18"/>
+                <Label Text="Hello 19"/>
+                <Label Text="Hello 20"/>
+                <Label Text="Hello 21"/>
+                <Label Text="Hello 22"/>
+                <Label Text="Hello 23"/>
+                <Label Text="Hello 24"/>
+                <Label Text="Hello 25"/>
+                <Label Text="Hello 26"/>
+                <Label Text="Hello 27"/>
+                <Label Text="Hello 28"/>
+                <Label Text="Hello 29"/>
+
+            </VerticalStackLayout>
+        </ScrollView>
+    </Border>
+</ContentPage>

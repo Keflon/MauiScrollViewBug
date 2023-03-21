@@ -1,5 +1,8 @@
 # MauiScrollViewBug
 
+## Bug report
+https://github.com/dotnet/maui/issues/14091
+
 ## Repro steps
 1. Create a File->New MAUI app.
 2. In MainPage.xaml
